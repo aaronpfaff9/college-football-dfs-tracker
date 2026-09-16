@@ -1,0 +1,27 @@
+# Configuration File
+# Update these values to customize your tracker
+
+SEASON = 2026
+WEEK_START = 1
+WEEK_END = 15
+SHEET_NAME = "WR Stats"
+API_BASE = "https://api.collegefootballdata.com"
+
+# Data columns to track (comma-separated)
+STAT_COLUMNS = "Targets,Receptions,Yards,TDs,YAC"
+
+# Position filter (leave empty for all positions)
+# Options: "WR", "TE", "RB", "QB" or leave empty for all
+POSITION_FILTER = ""
+
+# Include these positions in results
+INCLUDE_POSITIONS = ["WR", "TE", "RB"]
+
+# Exclude these positions (optional)
+EXCLUDE_POSITIONS = []
+
+# Sheet formatting
+HEADER_BACKGROUND = "#d3d3d3"
+HEADER_FONT_BOLD = true
+AUTO_RESIZE_COLUMNS = true
+NUMBER_FORMAT = "0"
